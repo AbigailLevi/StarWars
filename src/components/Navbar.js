@@ -5,7 +5,7 @@ const NavBar = () => {
     <div className="weird">
       <nav className="navbar navbar-dark bg-secondary ">
         <a className="navbar-brand">
-          <img src="https://img.icons8.com/ios/64/000000/star-wars.png" />
+        <img src="https://img.icons8.com/color/100/000000/star-wars.png"/>
         </a>
         <div class="dropdown pr-3">
           <button

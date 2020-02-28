@@ -1,6 +1,7 @@
 import React from "react";
+import PropTypes from "prop-types"
 
-const Cards = () => {
+const PeopleCards = () => {
   return (
     <div className="container mt-3">
       <div className="row">
@@ -13,7 +14,7 @@ const Cards = () => {
             />
             <div className="card-body" >
               
-              <h5 className="card-title">Card title</h5>
+              <h5 className="card-title">Characters</h5>
               <p className="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
@@ -28,5 +29,8 @@ const Cards = () => {
     </div>
   );
 };
+PeopleCards.proptype={
+  PeopleCards:PropTypes.object.isRequired
+}
 
-export default Cards;
+export default PeopleCards;

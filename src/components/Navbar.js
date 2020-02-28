@@ -7,9 +7,9 @@ const NavBar = () => {
         <a className="navbar-brand">
         <img src="https://img.icons8.com/color/100/000000/star-wars.png"/>
         </a>
-        <div class="dropdown pr-3">
+        <div className="dropdown pr-3">
           <button
-            class="btn btn-primary dropdown-toggle "
+            className="btn btn-primary dropdown-toggle "
             type="button"
             id="dropdownMenuButton"
             data-toggle="dropdown"
@@ -18,14 +18,14 @@ const NavBar = () => {
           >
             Favorites
           </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">
+          <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a className="dropdown-item" href="#">
               Action
             </a>
-            <a class="dropdown-item" href="#">
+            <a className="dropdown-item" href="#">
               Another action
             </a>
-            <a class="dropdown-item" href="#">
+            <a className="dropdown-item" href="#">
               Something else here
             </a>
           </div>

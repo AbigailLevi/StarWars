@@ -6,7 +6,7 @@ import Home from "./components/Home"
 
 const App = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <React.Fragment>
         <NavBar />
         <Home />

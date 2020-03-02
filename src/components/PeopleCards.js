@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types"
 
-const PeopleCards = () => {
+const PeopleCards = props => {
   return (
     <div className="container mt-3">
       <div className="row">
@@ -14,11 +14,12 @@ const PeopleCards = () => {
             />
             <div className="card-body" >
               
-              <h5 className="card-title">Characters</h5>
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+  <h5 className="card-title"> {props.name} </h5>
+              <div className="card-text">
+                <p>Gender: {props.gender}</p>
+                <p>Eye Color: {props.eyeColor}</p>
+                <p>Hair Color: {props.hairColor}</p>
+              </div>
               <a href="#" className="btn btn-primary">
                 Details
               </a>
@@ -29,8 +30,8 @@ const PeopleCards = () => {
     </div>
   );
 };
-PeopleCards.proptype={
-  PeopleCards:PropTypes.object.isRequired
-}
+// PeopleCards.proptypes={
+//   PeopleCards:PropTypes.object.isRequired
+// }
 
 export default PeopleCards;
